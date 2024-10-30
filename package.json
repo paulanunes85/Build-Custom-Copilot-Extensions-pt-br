@@ -1,0 +1,39 @@
+{
+  "name": "my-copilot-agent",
+  "type": "module",
+  "scripts": {
+    "format:write": "prettier --write **/*.js",
+    "format:check": "prettier --check **/*.js",
+    "lint": "npx eslint .",
+    "lint-fix": "npx eslint . --fix",
+    "start": "node src/index.js",
+    "dev": "nodemon"
+  },
+  "devDependencies": {
+    "prettier": "^3.3.3",
+    "eslint": "^8.55.0",
+    "eslint-plugin-github": "^5.0.2",
+    "@babel/eslint-parser": "^7.25.8"
+  },
+  "dependencies": {
+    "@copilot-extensions/preview-sdk": "^5.0.1",
+    "body-parser": "^1.20.3",
+    "express": "^4.21.1",
+    "node-fetch": "^3.3.2",
+    "nodemon": "^3.1.7"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "nodemonConfig": {
+    "watch": [
+      "src/**/*.js",
+      "package.json"
+    ],
+    "ext": "js,json",
+    "ignore": [
+      "node_modules/**"
+    ],
+    "exec": "node src/index.js"
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "name": "my-copilot-agent",
+  "hostRequirements": {
+    "cpus": 4,
+    "memory": "8gb",
+    "storage": "32gb"
+  },
+  "waitFor": "onCreateCommand",
+  "postCreateCommand": ". ${NVM_DIR}/nvm.sh && nvm alias default 22 && nvm use default",
+  "updateContentCommand": "npm update -g npm && npm update && npm install",
+  "postAttachCommand": "./script/bootstrap",
+  "image": "mcr.microsoft.com/devcontainers/universal:latest",
+  "features": {
+    "ghcr.io/devcontainers/features/node:1.6.0": {
+      "version": "22"
+    }
+  },
+  "customizations": {
+    "vscode": {
+      "settings": {
+        "files.autoSave": "onFocusChange",
+        "editor.tabSize": 2
+      },
+      "extensions": [
+        "GitHub.copilot-chat",
+        "GitHub.copilot",
+        "VisualStudioExptTeam.intellicode-api-usage-examples",
+        "VisualStudioExptTeam.vscodeintellicode",
+        "ms-azuretools.vscode-docker"
+      ]
+    }
+  },
+  "portsAttributes": {
+    "3000": {
+      "label": "This agent's API",
+      "onAutoForward": "notify"
+    },
+    "3001": {
+      "label": "Shopping List API",
+      "onAutoForward": "notify"
+    }
+  },
+  "forwardPorts": [3001],
+  "appPort": [3000]
+}

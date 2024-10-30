@@ -1,0 +1,59 @@
+#!/bin/bash
+
+max_curl_attempts=10
+
+wait_for_docker() {
+  TIMEOUT=30
+  while [ $TIMEOUT -gt 0 ]; do
+    if docker info > /dev/null 2>&1; then
+      echo "Docker daemon is running!"
+      return 0
+    fi
+    echo "Waiting for Docker daemon to start..."
+    sleep 1
+    TIMEOUT=$((TIMEOUT-1))
+  done
+
+  echo "Failed to start the Docker daemon within the timeout period."
+  return 1
+}
+
+# Wait for Docker daemon to be running
+wait_for_docker || exit 1
+
+# Define the image name
+IMAGE_NAME="ghcr.io/digimangos-gateixeira-workshop/shopping-list-api:main"
+echo "Running ${IMAGE_NAME} instance!"
+
+# Get the container ID of the running container for the specified image
+CONTAINER_ID=$(docker ps -a --filter "ancestor=$IMAGE_NAME" --format "{{.ID}}")
+
+echo "Container ID: ${CONTAINER_ID}"
+
+if [ ! -z "$CONTAINER_ID" ]; then
+  echo -e "Container Exists: ${CONTAINER_ID}"
+  docker start $CONTAINER_ID
+else
+  echo -e "API is not running"
+  docker run -d -p 3001:3000 --name shopping-list-api $IMAGE_NAME
+fi
+
+echo -e "\nWaiting for API to start..."
+while ! curl -s "http://localhost:3001/items/" > /dev/null; do
+  printf "."
+  sleep 1
+done
+
+attempt=0
+while ! curl -s "http://localhost:3001/items/" > /dev/null && [ $attempt -lt $max_curl_attempts ]; do
+  printf "."
+  sleep 2
+  attempt=$((attempt + 1))
+done
+
+if [ $attempt -eq $max_curl_attempts ]; then
+  echo "Error: Unable to reach http://localhost:3001/items/ after $max_curl_attempts attempts."
+fi
+
+echo -e 'API is up and running!'
+exit 0
