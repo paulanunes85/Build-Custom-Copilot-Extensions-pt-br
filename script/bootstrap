@@ -22,7 +22,7 @@ wait_for_docker() {
 wait_for_docker || exit 1
 
 # Define the image name
-IMAGE_NAME="ghcr.io/digimangos-gateixeira-workshop/shopping-list-api:main"
+IMAGE_NAME="ghcr.io/githubuniverseworkshops/build-custom-copilot-extensions:main"
 echo "Running ${IMAGE_NAME} instance!"
 
 # Get the container ID of the running container for the specified image
