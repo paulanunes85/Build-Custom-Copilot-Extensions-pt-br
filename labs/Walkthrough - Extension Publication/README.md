@@ -1,49 +1,49 @@
-# Walkthrough of Publishing the Copilot Extension
+# Passo a Passo para Publicar a Extensão do Copilot
 
-This section details the process of publishing your agent to the marketplace. This is based on the content from [GitHub Docs - Managing the availability of your Copilot Extension](https://docs.github.com/en/copilot/building-copilot-extensions/managing-the-availability-of-your-copilot-extension)
+Esta seção detalha o processo de publicação do seu agente no marketplace. Isso é baseado no conteúdo de [GitHub Docs - Gerenciando a disponibilidade da sua Extensão Copilot](https://docs.github.com/en/copilot/building-copilot-extensions/managing-the-availability-of-your-copilot-extension)
 
 ---
 
-### Step 1: Changing the Visibility of Your Copilot Extension
+### Passo 1: Alterando a Visibilidade da Sua Extensão Copilot
 
-After building your Copilot Extension, to prepare your extension for the Marketplace is to make it public. This allows anyone with the link to your app's installation page to install it. To change the visibility of your Copilot Extension, follow these steps:
+Depois de construir sua Extensão Copilot, para prepará-la para o Marketplace, é necessário torná-la pública. Isso permite que qualquer pessoa com o link para a página de instalação do seu aplicativo possa instalá-lo. Para alterar a visibilidade da sua Extensão Copilot, siga estes passos:
 
-1. In the upper-right corner of GitHub, click your profile photo and select **Your organizations**.
-2. Under "Organizations," next to your organization name, click **Settings**.
-3. At the bottom of the sidebar, select **Developer settings**, then click **GitHub Apps**.
-4. Next to your Copilot Extension, click **Edit**.
-5. In the sidebar, click **Advanced**. 
-6. At the bottom of the "Danger Zone" section, choose one of the following options:
-   - **Make public**: Your GitHub App is currently private, and only the organization or user who created it can install it. Click **Make public** to allow anyone with the link to your app's installation page to install it.
-7. If your app is public, you can share the link to your installation page by clicking **Public page** in the sidebar and copying the link.
+1. No canto superior direito do GitHub, clique na sua foto de perfil e selecione **Your organizations**.
+2. Em "Organizations", ao lado do nome da sua organização, clique em **Settings**.
+3. Na parte inferior da barra lateral, selecione **Developer settings**, depois clique em **GitHub Apps**.
+4. Ao lado da sua Extensão Copilot, clique em **Edit**.
+5. Na barra lateral, clique em **Advanced**.
+6. Na parte inferior da seção "Danger Zone", escolha uma das seguintes opções:
+   - **Make public**: Seu Aplicativo GitHub está atualmente privado, e apenas a organização ou usuário que o criou pode instalá-lo. Clique em **Make public** para permitir que qualquer pessoa com o link para a página de instalação do seu aplicativo possa instalá-lo.
+7. Se o seu aplicativo for público, você pode compartilhar o link para a página de instalação clicando em **Public page** na barra lateral e copiando o link.
 
-### Step 2: Listing Your Copilot Extension on the GitHub Marketplace
+### Passo 2: Listando Sua Extensão Copilot no GitHub Marketplace
 
-To list your Copilot Extension on the GitHub Marketplace, follow these steps:
+Para listar sua Extensão Copilot no GitHub Marketplace, siga estes passos:
 
-1. Once the app is public...
-2. Scroll down to the **Marketplace** section and click **List in Marketplace**. This option is only visible if your app is public.
+1. Uma vez que o aplicativo esteja público...
+2. Role para baixo até a seção **Marketplace** e clique em **List in Marketplace**. Esta opção só é visível se o seu aplicativo for público.
 
-3. In the **Listing name** textbox, type a name for your listing. The name should follow one of these conventions:
-   - YOUR-PRODUCT-NAME (example: "Copilot")
-   - YOUR-COMPANY-NAME (example: "GitHub")
-   - YOUR-COMPANY-PRODUCT-NAME (example: "GitHub Copilot")
+3. Na caixa de texto **Listing name**, digite um nome para sua listagem. O nome deve seguir uma destas convenções:
+   - NOME-DO-SEU-PRODUTO (exemplo: "Copilot")
+   - NOME-DA-SUA-EMPRESA (exemplo: "GitHub")
+   - NOME-DA-SUA-EMPRESA-PRODUTO (exemplo: "GitHub Copilot")
 
-4. In the **Primary category** section, select a category from the dropdown menu.
+4. Na seção **Primary category**, selecione uma categoria no menu suspenso.
 
-5. Fill out all the required sections for your listing.
-6. Verify that the organization account that owns the GitHub App is a verified publisher on the GitHub Marketplace.
-   - If your organization is not yet verified, follow the steps to apply for publisher verification.
-7. Accept the **GitHub Marketplace Developer Agreement**.
+5. Preencha todas as seções obrigatórias para sua listagem.
+6. Verifique se a conta da organização que possui o Aplicativo GitHub é um editor verificado no GitHub Marketplace.
+   - Se sua organização ainda não for verificada, siga os passos para solicitar a verificação do editor.
+7. Aceite o **GitHub Marketplace Developer Agreement**.
 
-Once these steps are completed, click **Submit for review**.
+Uma vez que esses passos sejam concluídos, clique em **Submit for review**.
 
-### Step 4: GitHub Marketplace Review Process
+### Passo 4: Processo de Revisão do GitHub Marketplace
 
-After submitting your extension, GitHub will review it to ensure it meets the quality, performance, reliability, and security standards. If your submission is approved, it will be listed on the GitHub Marketplace. If your submission is denied, GitHub will provide feedback, and you can address any issues before resubmitting.
+Depois de enviar sua extensão, o GitHub a revisará para garantir que ela atenda aos padrões de qualidade, desempenho, confiabilidade e segurança. Se sua submissão for aprovada, ela será listada no GitHub Marketplace. Se sua submissão for negada, o GitHub fornecerá feedback, e você poderá resolver quaisquer problemas antes de reenviar.
 
-### Conclusion
+### Conclusão
 
-In this lab, you learned how to manage the visibility of your Copilot Extension and list it on the GitHub Marketplace. This will enable others to discover and install your extension.
+Neste laboratório, você aprendeu como gerenciar a visibilidade da sua Extensão Copilot e listá-la no GitHub Marketplace. Isso permitirá que outros descubram e instalem sua extensão.
 
 

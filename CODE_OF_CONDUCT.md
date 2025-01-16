@@ -1,94 +1,93 @@
+# Código de Conduta
 
-# Code of Conduct
+O Fórum de Discussão do GitHub Universe 2024 é destinado a ser um lugar para perguntas, feedback e bate-papo relacionados às sessões do evento virtual GitHub Universe 2024. Este é um lugar civilizado para se conectar com outros participantes e Hubbers de todo o mundo que participam do evento. Ao participar desta comunidade, você está concordando com os mesmos [Termos de Serviço](https://help.github.com/articles/github-terms-of-service) que se aplicam ao GitHub.com, bem como com o Código de Conduta específico do Fórum de Discussão do GitHub Universe 2024.
 
-The GitHub Universe 2024 Discussion Forum is intended to be a place for questions, feedback and chat related to sessions at the virtual GitHub Universe 2024 event. This is a civilized place for connecting with other attendees, and Hubbers from across the world taking part in the event. By participating in this community, you are agreeing to the same [Terms of Service](https://help.github.com/articles/github-terms-of-service) that apply to GitHub.com, as well as the GitHub Universe 2024 Discussion Forum specific Code of Conduct.
+Com este Código de Conduta, esperamos ajudá-lo a entender como colaborar melhor nas Discussões, o que você pode esperar dos moderadores e que tipo de ações ou conteúdo podem resultar em suspensão temporária ou permanente deste projeto. Investigaremos quaisquer denúncias de abuso e poderemos moderar o conteúdo público dentro da discussão que determinarmos estar em violação dos Termos de Serviço do GitHub ou deste Código de Conduta.
 
-With this Code of Conduct, we hope to help you understand how best to collaborate in Discussions, what you can expect from moderators, and what type of actions or content may result in temporary or permanent suspension from this project. We will investigate any abuse reports and may moderate public content within the discussion that we determine to be in violation of either the GitHub Terms of Service or this Code of Conduct.
-
-GitHub users worldwide bring wildly different perspectives, ideas, and experiences, and range from people who created their first "Hello World" project last week to the most well-known software developers in the world. We are committed to making GitHub Universe a welcoming environment for all the different voices and perspectives here, while maintaining a space where people are free to express themselves.
-
-
-### Pledge
-
-In the interest of fostering an open and welcoming environment, we as contributors and maintainers pledge to make participation in the GitHub Universe Discussions a harassment-free experience for everyone, regardless of age, body size, ability, ethnicity, gender identity and expression, level of experience, nationality, personal appearance, race, religion, or sexual identity and orientation.
+Usuários do GitHub em todo o mundo trazem perspectivas, ideias e experiências muito diferentes, e variam desde pessoas que criaram seu primeiro projeto "Hello World" na semana passada até os desenvolvedores de software mais conhecidos do mundo. Estamos comprometidos em fazer do GitHub Universe um ambiente acolhedor para todas as diferentes vozes e perspectivas aqui, enquanto mantemos um espaço onde as pessoas são livres para se expressar.
 
 
-### Standards
+### Compromisso
 
-Treat the GitHub Universe Discussions with respect. The following are not hard and fast rules, merely aids to the human judgment of our Community. Use these guidelines to keep this a clean, well-lighted place for civilized public discourse.
-
-
-#### _Best Practices for Building a Strong Community_
+No interesse de fomentar um ambiente aberto e acolhedor, nós, como contribuintes e mantenedores, nos comprometemos a tornar a participação nas Discussões do GitHub Universe uma experiência livre de assédio para todos, independentemente de idade, tamanho corporal, habilidade, etnia, identidade e expressão de gênero, nível de experiência, nacionalidade, aparência pessoal, raça, religião ou identidade e orientação sexual.
 
 
+### Padrões
 
-*   Be respectful and considerate.
-    *   Be welcoming and open-minded. Other GitHub members may not have the same experience level or background as you, but that doesn't mean they don't have good ideas to contribute. We encourage you to be welcoming to new members and those just getting started.
-    *   Respect each other. Nothing sabotages healthy conversation like rudeness. Be civil and professional, and don’t post anything that a reasonable person would consider offensive, abusive, or hate speech. Don’t harass or grief anyone. Treat each other with dignity and consideration in all interactions. \
-You may wish to respond to something by disagreeing with it. That’s fine. But remember to criticize ideas, not people. Avoid name-calling, ad hominem attacks, responding to a post’s tone instead of its actual content, and knee-jerk contradiction. Instead, provide reasoned counter-arguments that improve the conversation.
-    *   Communicate with empathy. Disagreements or differences of opinion are a fact of life. Being part of a community means interacting with people from a variety of backgrounds and perspectives, many of which may not be your own. If you disagree with someone, try to understand and share their feelings before you address them. This will promote a respectful and friendly atmosphere where people feel comfortable asking questions, participating in discussions, and making contributions.
-*   Contribute in a positive and constructive way.
-    *   Improve the discussion. Help us make this a great place for discussion by always working to improve the discussion in some way, however small. If you are not sure your post adds to the conversation, think over what you want to say and try again later. \
-The topics discussed here matter to us, and we want you to act as if they matter to you, too. Be respectful of the topics and the people discussing them, even if you disagree with some of what is being said.
-    *   Be clear and stay on topic. Communicating with strangers on the Internet can be awkward. It's hard to convey or read tone, and sarcasm is frequently misunderstood. Try to use clear language, and think about how it will be received by the other person. \
-This applies to sharing links, as well. Any links shared in the discussions should be shared with the intent of providing relevant and appropriate information. Links should not be posted to simply drive traffic or attention to a site. Links should always be accompanied by a full explanation of the content and purpose of the link. Posting links, especially unsolicited ones, without relevant and valuable context can come across as advertising or serving even more malicious purposes.
-    *   Share mindfully. Don't share sensitive information. This includes your own email address. We don't allow the sharing of such information in this discussion forum, as it can create security and privacy risks for the poster, as well as other users.
-    *   Keep it tidy. Make the effort to put things in the right place, so that we can spend more time discussing and less time cleaning up. So:
-        *   Don’t cross-post the same thing in multiple topics.
-        *   Don’t post no-content replies.
-        *   Don’t divert a topic by changing it midstream.
-    *   Rather than posting “+1” or “Agreed”, use the Reaction emoji button.
-*   Be trustworthy.
-    *   Always be honest. Don’t knowingly share incorrect information or intentionally mislead other GitHub members. If you don’t know the answer to someone’s question but still want to help, you can try helping them research or find resources instead. GitHub staff will also be active in the discussions, so if you’re unsure of an answer, it’s likely a moderator will be able to help.
-
-#### _What is not Allowed_
-
-*   Threats of violence. You may not threaten violence towards others or use the site to organize, promote, or incite acts of real-world violence or terrorism. Think carefully about the words you use, the images you post, and even the software you write, and how they may be interpreted by others. Even if you mean something as a joke, it might not be received that way. If you think that someone else might interpret the content you post as a threat, or as promoting violence or terrorism, stop. Don't post it. In extraordinary cases, we may report threats of violence to law enforcement if we think there may be a genuine risk of physical harm or a threat to public safety.
-*   Hate speech and discrimination. While it is not forbidden to broach topics such as age, body size, ability, ethnicity, gender identity and expression, level of experience, nationality, personal appearance, race, religion, or sexual identity and orientation, we do not tolerate speech that attacks a person or group of people on the basis of who they are. Just realize that talking about these or other sensitive topics can make others feel unwelcome, or perhaps even unsafe, if approached in an aggressive or insulting manner. We expect our community members to be respectful when discussing sensitive topics.
-*   Bullying and harassment. We do not tolerate bullying or harassment. This means any habitual badgering or intimidation targeted at a specific person or group of people. In general, if your actions are unwanted and you continue to engage in them, there's a good chance you are headed into bullying or harassment territory.
-*   Impersonation. You may not impersonate another person by copying their avatar, posting content under their email address, intentionally using a deceptively similar username or otherwise posing as someone else. Impersonation is a form of harassment.
-*   Doxxing and invasion of privacy. Don't post other people's personal information, such as phone numbers, private email addresses, physical addresses, credit card numbers, Social Security/National Identity numbers, or passwords. Depending on the context, such as in the case of intimidation or harassment, we may consider other information, such as photos or videos that were taken or distributed without the subject's consent, to be an invasion of privacy, especially when such material presents a safety risk to the subject.
-*   Prurient/Sexually explicit content. Basically, don't post pornography. This does not mean that all nudity or sexual content is prohibited. We recognize that sexuality is a part of life and non-pornographic sexual content may be a part of your project, or may be presented for educational or artistic purposes. If you have any questions or concerns about something you want to post, [feel free to reach out and ask](https://support.github.com/contact) beforehand.
-*   Spam. Respect the GitHub Universe Discussions. Don’t post advertisements, link to spammy websites, or otherwise vandalize the community. This community is meant for GitHub Universe participants to talk about the sessions, to provide feedback, as questions, learn, and share ideas with one another - not for advertising or other spam-like content. Content that we deem spammy will be removed.
-*   Copyrighted or illegal content. Only post your own stuff. You are responsible for what you post. If you post something you didn’t create yourself, you must have the right to post it. You may not post illegal content, including content illegal under copyright and trademark laws, links to illegal content, or methods for circumventing the law.
-*   Active malware or exploits. Being part of this community includes not taking advantage of other members of the community. We do not allow anyone to use our platform for exploit delivery (e.g. Using the community as a means to deliver malicious executables) or as attack infrastructure (e.g. Organizing denial of service attacks or managing command and control servers). Note, however, that we do not prohibit the posting of source code which could be used to develop malware or exploits, as the publication and distribution of such source code has educational value and provides a net benefit to the security community.
-*   Anyone under the age of 13. If you're a child under the age of 13, you may not have an account on GitHub. GitHub does not knowingly collect information from or direct any of our content specifically to children under 13. If we learn or have reason to suspect that you are a user who is under the age of 13, we will unfortunately have to close both your GitHub.com account. We don't want to discourage you from learning to code, but those are the rules. Please see our [Terms of Service](https://help.github.com/articles/github-terms-of-service) for information about account termination.
-*   Other conduct which could reasonably be considered inappropriate in a professional setting. The GitHub Universe Discussions is a professional space and should be treated as such.
-
-### Enforcement
+Trate as Discussões do GitHub Universe com respeito. As seguintes não são regras rígidas e rápidas, apenas auxílios ao julgamento humano de nossa Comunidade. Use estas diretrizes para manter este um lugar limpo e bem iluminado para um discurso público civilizado.
 
 
-#### _What GitHub Universe Discussions members Can Do_
-
-*   If you see a problem, report it. Moderators have special authority; they are responsible for this community. But so are you. With your help, moderators can be community facilitators, not just janitors or police. \
-When you see bad behavior, don’t reply. It encourages the bad behavior by acknowledging it, consumes your energy, and wastes everyone’s time. Just report it by copying a direct link to the reply in question and emailing it to events@github.com
-
-#### Our Responsibilities
-
-
-There are a variety of actions that we may take in response to inappropriate behavior or content. It usually depends on the exact circumstances of a particular case. We recognize that sometimes people may say or do inappropriate things for any number of reasons. Perhaps they did not realize how their words would be perceived. Or maybe they just let their emotions get the best of them. Of course, sometimes, there are folks who just want to spam or cause trouble.
-
-Each case requires a different approach, and we try to tailor our response to meet the needs of the situation. We'll review each situation on a case-by-case basis. In each case, we will have a diverse team investigate the content and surrounding facts and respond as appropriate, using this Code of Conduct to guide our decision.
-
-Actions we may take in response to a flag or abuse report include, but are not limited to:
+#### _Melhores Práticas para Construir uma Comunidade Forte_
 
 
 
-*   Content Removal
-*   Content Blocking
-*   GitHub Account Suspension
-*   GitHub Account Termination
+*   Seja respeitoso e considerado.
+    *   Seja acolhedor e mente aberta. Outros membros do GitHub podem não ter o mesmo nível de experiência ou background que você, mas isso não significa que eles não tenham boas ideias para contribuir. Incentivamos você a ser acolhedor com novos membros e aqueles que estão começando.
+    *   Respeite uns aos outros. Nada sabota uma conversa saudável como grosseria. Seja civil e profissional, e não poste nada que uma pessoa razoável consideraria ofensivo, abusivo ou discurso de ódio. Não assedie ou incomode ninguém. Trate uns aos outros com dignidade e consideração em todas as interações. \
+Você pode querer responder a algo discordando. Isso é normal. Mas lembre-se de criticar ideias, não pessoas. Evite xingamentos, ataques ad hominem, responder ao tom de uma postagem em vez de seu conteúdo real e contradição impulsiva. Em vez disso, forneça contra-argumentos fundamentados que melhorem a conversa.
+    *   Comunique-se com empatia. Desentendimentos ou diferenças de opinião são um fato da vida. Fazer parte de uma comunidade significa interagir com pessoas de uma variedade de origens e perspectivas, muitas das quais podem não ser as suas. Se você discordar de alguém, tente entender e compartilhar seus sentimentos antes de abordá-los. Isso promoverá uma atmosfera respeitosa e amigável onde as pessoas se sentirão confortáveis para fazer perguntas, participar de discussões e fazer contribuições.
+*   Contribua de maneira positiva e construtiva.
+    *   Melhore a discussão. Ajude-nos a fazer deste um ótimo lugar para discussão, sempre trabalhando para melhorar a discussão de alguma forma, por menor que seja. Se você não tiver certeza de que sua postagem adiciona à conversa, pense sobre o que você quer dizer e tente novamente mais tarde. \
+Os tópicos discutidos aqui são importantes para nós, e queremos que você aja como se eles fossem importantes para você também. Respeite os tópicos e as pessoas que os discutem, mesmo que você discorde de parte do que está sendo dito.
+    *   Seja claro e mantenha-se no tópico. Comunicar-se com estranhos na Internet pode ser estranho. É difícil transmitir ou ler o tom, e o sarcasmo é frequentemente mal interpretado. Tente usar uma linguagem clara e pense em como ela será recebida pela outra pessoa. \
+Isso se aplica ao compartilhamento de links também. Quaisquer links compartilhados nas discussões devem ser compartilhados com a intenção de fornecer informações relevantes e apropriadas. Links não devem ser postados apenas para direcionar tráfego ou atenção para um site. Links devem sempre ser acompanhados por uma explicação completa do conteúdo e propósito do link. Postar links, especialmente não solicitados, sem contexto relevante e valioso pode parecer publicidade ou servir a propósitos ainda mais maliciosos.
+    *   Compartilhe com cuidado. Não compartilhe informações sensíveis. Isso inclui seu próprio endereço de e-mail. Não permitimos o compartilhamento de tais informações neste fórum de discussão, pois isso pode criar riscos de segurança e privacidade para o autor da postagem, bem como para outros usuários.
+    *   Mantenha tudo organizado. Esforce-se para colocar as coisas no lugar certo, para que possamos passar mais tempo discutindo e menos tempo limpando. Então:
+        *   Não poste a mesma coisa em vários tópicos.
+        *   Não poste respostas sem conteúdo.
+        *   Não desvie um tópico mudando-o no meio do caminho.
+    *   Em vez de postar “+1” ou “Concordo”, use o botão de Reação emoji.
+*   Seja confiável.
+    *   Seja sempre honesto. Não compartilhe informações incorretas intencionalmente ou engane outros membros do GitHub. Se você não souber a resposta para a pergunta de alguém, mas ainda quiser ajudar, pode tentar ajudá-los a pesquisar ou encontrar recursos. A equipe do GitHub também estará ativa nas discussões, então se você não tiver certeza de uma resposta, é provável que um moderador possa ajudar.
 
-### Contacting GitHub Staff
+#### _O que não é permitido_
+
+*   Ameaças de violência. Você não pode ameaçar violência contra outras pessoas ou usar o site para organizar, promover ou incitar atos de violência ou terrorismo no mundo real. Pense cuidadosamente sobre as palavras que você usa, as imagens que você posta e até mesmo o software que você escreve, e como eles podem ser interpretados por outros. Mesmo que você queira dizer algo como uma piada, pode não ser recebido dessa forma. Se você acha que alguém pode interpretar o conteúdo que você posta como uma ameaça, ou como promoção de violência ou terrorismo, pare. Não poste. Em casos extraordinários, podemos relatar ameaças de violência às autoridades se acharmos que pode haver um risco genuíno de dano físico ou uma ameaça à segurança pública.
+*   Discurso de ódio e discriminação. Embora não seja proibido abordar tópicos como idade, tamanho corporal, habilidade, etnia, identidade e expressão de gênero, nível de experiência, nacionalidade, aparência pessoal, raça, religião ou identidade e orientação sexual, não toleramos discursos que ataquem uma pessoa ou grupo de pessoas com base em quem elas são. Apenas perceba que falar sobre esses ou outros tópicos sensíveis pode fazer com que outros se sintam indesejados, ou talvez até inseguros, se abordados de maneira agressiva ou insultuosa. Esperamos que nossos membros da comunidade sejam respeitosos ao discutir tópicos sensíveis.
+*   Bullying e assédio. Não toleramos bullying ou assédio. Isso significa qualquer intimidação ou perseguição habitual direcionada a uma pessoa ou grupo específico de pessoas. Em geral, se suas ações são indesejadas e você continua a se envolver nelas, há uma boa chance de você estar entrando em território de bullying ou assédio.
+*   Personificação. Você não pode se passar por outra pessoa copiando seu avatar, postando conteúdo sob seu endereço de e-mail, usando intencionalmente um nome de usuário enganosamente semelhante ou se passando por outra pessoa de qualquer outra forma. A personificação é uma forma de assédio.
+*   Doxxing e invasão de privacidade. Não poste informações pessoais de outras pessoas, como números de telefone, endereços de e-mail privados, endereços físicos, números de cartão de crédito, números de Segurança Social/Identidade Nacional ou senhas. Dependendo do contexto, como no caso de intimidação ou assédio, podemos considerar outras informações, como fotos ou vídeos que foram tirados ou distribuídos sem o consentimento do sujeito, como uma invasão de privacidade, especialmente quando esse material apresenta um risco de segurança para o sujeito.
+*   Conteúdo pruriente/sexualmente explícito. Basicamente, não poste pornografia. Isso não significa que toda nudez ou conteúdo sexual seja proibido. Reconhecemos que a sexualidade é uma parte da vida e o conteúdo sexual não pornográfico pode fazer parte do seu projeto, ou pode ser apresentado para fins educacionais ou artísticos. Se você tiver alguma dúvida ou preocupação sobre algo que deseja postar, [sinta-se à vontade para entrar em contato e perguntar](https://support.github.com/contact) com antecedência.
+*   Spam. Respeite as Discussões do GitHub Universe. Não poste anúncios, links para sites de spam ou vandalize a comunidade de qualquer outra forma. Esta comunidade é destinada aos participantes do GitHub Universe para falar sobre as sessões, fornecer feedback, fazer perguntas, aprender e compartilhar ideias uns com os outros - não para publicidade ou outros conteúdos semelhantes a spam. Conteúdo que considerarmos spam será removido.
+*   Conteúdo protegido por direitos autorais ou ilegal. Apenas poste suas próprias coisas. Você é responsável pelo que posta. Se você postar algo que não criou, deve ter o direito de postá-lo. Você não pode postar conteúdo ilegal, incluindo conteúdo ilegal sob leis de direitos autorais e marcas registradas, links para conteúdo ilegal ou métodos para contornar a lei.
+*   Malware ativo ou exploits. Fazer parte desta comunidade inclui não tirar vantagem de outros membros da comunidade. Não permitimos que ninguém use nossa plataforma para entrega de exploits (por exemplo, usar a comunidade como meio para entregar executáveis maliciosos) ou como infraestrutura de ataque (por exemplo, organizar ataques de negação de serviço ou gerenciar servidores de comando e controle). No entanto, não proibimos a postagem de código-fonte que possa ser usado para desenvolver malware ou exploits, pois a publicação e distribuição de tal código-fonte tem valor educacional e proporciona um benefício líquido à comunidade de segurança.
+*   Qualquer pessoa com menos de 13 anos. Se você é uma criança com menos de 13 anos, não pode ter uma conta no GitHub. O GitHub não coleta informações conscientemente de ou direciona qualquer um de nossos conteúdos especificamente para crianças menores de 13 anos. Se soubermos ou tivermos motivos para suspeitar que você é um usuário com menos de 13 anos, infelizmente teremos que encerrar sua conta no GitHub.com. Não queremos desencorajá-lo a aprender a programar, mas essas são as regras. Consulte nossos [Termos de Serviço](https://help.github.com/articles/github-terms-of-service) para obter informações sobre o encerramento da conta.
+*   Outra conduta que possa ser razoavelmente considerada inadequada em um ambiente profissional. As Discussões do GitHub Universe são um espaço profissional e devem ser tratadas como tal.
+
+### Aplicação
 
 
-If, for any reason, you want to contact GitHub Staff, the Community Managers, Administrators, or Moderators of this forum privately, you can send an email to events@github.com.
+#### _O que os membros das Discussões do GitHub Universe podem fazer_
 
-Let's work together to keep the discussion a place where people feel safe to participate by being respectful of them and their time.
+*   Se você vir um problema, denuncie. Moderadores têm autoridade especial; eles são responsáveis por esta comunidade. Mas você também é. Com sua ajuda, os moderadores podem ser facilitadores da comunidade, não apenas zeladores ou policiais. \
+Quando você vir um comportamento inadequado, não responda. Isso incentiva o comportamento inadequado ao reconhecê-lo, consome sua energia e desperdiça o tempo de todos. Apenas denuncie copiando um link direto para a resposta em questão e enviando um e-mail para events@github.com
+
+#### Nossas Responsabilidades
 
 
-### Legal Notices
+Há uma variedade de ações que podemos tomar em resposta a comportamentos ou conteúdos inadequados. Geralmente depende das circunstâncias exatas de um caso particular. Reconhecemos que às vezes as pessoas podem dizer ou fazer coisas inadequadas por vários motivos. Talvez não tenham percebido como suas palavras seriam percebidas. Ou talvez apenas deixaram suas emoções tomarem conta. Claro, às vezes, há pessoas que só querem fazer spam ou causar problemas.
 
-Yes, legalese is boring, but we must protect ourselves – and by extension, you and your data – against unfriendly folks. We have a [Terms of Service](https://help.github.com/articles/github-terms-of-service/) and [Privacy Statement](https://help.github.com/articles/github-privacy-statement/) describing your (and our) behavior and rights related to content, privacy, and laws. To use this service, you must agree to abide by our [Terms of Service](https://help.github.com/articles/github-terms-of-service/) and the [Privacy Statement](https://help.github.com/articles/github-privacy-statement/).
+Cada caso requer uma abordagem diferente, e tentamos adaptar nossa resposta para atender às necessidades da situação. Revisaremos cada situação caso a caso. Em cada caso, teremos uma equipe diversificada para investigar o conteúdo e os fatos circundantes e responder de forma apropriada, usando este Código de Conduta para guiar nossa decisão.
 
-This Code of Conduct does not modify our [Terms of Service](https://help.github.com/articles/github-terms-of-service/) and is not intended to be a complete list. GitHub retains full discretion under the [Terms of Service](https://help.github.com/articles/github-terms-of-service/) to remove any content or terminate any accounts for activity that is "unlawful, offensive, threatening, libelous, defamatory, pornographic, obscene or otherwise objectionable or violates any party's intellectual property or these Terms of Service." This Code of Conduct describes when we will exercise that discretion.
+As ações que podemos tomar em resposta a uma denúncia ou relatório de abuso incluem, mas não se limitam a:
+
+
+
+*   Remoção de Conteúdo
+*   Bloqueio de Conteúdo
+*   Suspensão de Conta do GitHub
+*   Encerramento de Conta do GitHub
+
+### Contatando a Equipe do GitHub
+
+
+Se, por qualquer motivo, você quiser entrar em contato com a Equipe do GitHub, os Gerentes da Comunidade, Administradores ou Moderadores deste fórum de forma privada, você pode enviar um e-mail para events@github.com.
+
+Vamos trabalhar juntos para manter a discussão um lugar onde as pessoas se sintam seguras para participar, respeitando-as e respeitando seu tempo.
+
+
+### Avisos Legais
+
+Sim, juridiquês é chato, mas precisamos nos proteger – e, por extensão, proteger você e seus dados – contra pessoas hostis. Temos [Termos de Serviço](https://help.github.com/articles/github-terms-of-service/) e uma [Declaração de Privacidade](https://help.github.com/articles/github-privacy-statement/) descrevendo seu (e nosso) comportamento e direitos relacionados a conteúdo, privacidade e leis. Para usar este serviço, você deve concordar em cumprir nossos [Termos de Serviço](https://help.github.com/articles/github-terms-of-service/) e a [Declaração de Privacidade](https://help.github.com/articles/github-privacy-statement/).
+
+Este Código de Conduta não modifica nossos [Termos de Serviço](https://help.github.com/articles/github-terms-of-service/) e não se destina a ser uma lista completa. O GitHub mantém total discrição sob os [Termos de Serviço](https://help.github.com/articles/github-terms-of-service/) para remover qualquer conteúdo ou encerrar qualquer conta por atividade que seja "ilegal, ofensiva, ameaçadora, caluniosa, difamatória, pornográfica, obscena ou de outra forma censurável ou que viole a propriedade intelectual de qualquer parte ou estes Termos de Serviço." Este Código de Conduta descreve quando exerceremos essa discrição.

@@ -1,53 +1,53 @@
-# Lab 3.3 - Modifying Agent Behaviour by Editing Prompts
+# Lab 3.3 - Modificando o Comportamento do Agente Editando Prompts
 
-In this lab, you'll modify the behaviour of your Copilot agent by adjusting the static prompts defined in the `prompts.js` file. This enables you to control how the agent interprets user requests and responds to them.
+Neste laboratório, você modificará o comportamento do seu agente Copilot ajustando os prompts estáticos definidos no arquivo `prompts.js`. Isso permite que você controle como o agente interpreta as solicitações dos usuários e responde a elas.
 
-### Step 1: Review the Existing Prompts
+### Passo 1: Revisar os Prompts Existentes
 
-Open the `prompts.js` file in your repository. The current contents of the file define how the agent interprets requests, handles IDs, assumes quantities, and displays raw data.
+Abra o arquivo `prompts.js` no seu repositório. O conteúdo atual do arquivo define como o agente interpreta solicitações, lida com IDs, assume quantidades e exibe dados brutos.
 
-### Step 2: Modify the Prompts to Change Agent Behaviour
+### Passo 2: Modificar os Prompts para Alterar o Comportamento do Agente
 
-Now, you will modify these prompts to adjust the agent’s behaviour. For example, let's make the agent respond in a **happy, positive, and joking manner** in all its interactions. To achieve this, we will add a new system prompt.
+Agora, você modificará esses prompts para ajustar o comportamento do agente. Por exemplo, vamos fazer o agente responder de maneira **feliz, positiva e brincalhona** em todas as suas interações. Para conseguir isso, adicionaremos um novo prompt de sistema.
 
-1. In the `prompts.js` file, add a new system prompt at the end of the array to tell the agent to always respond in a happy and joking manner.
+1. No arquivo `prompts.js`, adicione um novo prompt de sistema no final do array para instruir o agente a sempre responder de maneira feliz e brincalhona.
 
 ```javascript
 {
   role: 'system',
-  content: 'Always respond in a happy, positive, and joking manner.'
+  content: 'Sempre responda de maneira feliz, positiva e brincalhona.'
 }
 ```
 
-### Step 3: Testing the Modified Agent Behaviour
+### Passo 3: Testando o Comportamento Modificado do Agente
 
-Now, let’s test the changes by interacting with the Copilot agent.
+Agora, vamos testar as mudanças interagindo com o agente Copilot.
 
-1. Open the GitHub Copilot Chat panel and invoke your extension by typing `@EXTENSION-NAME`.
-2. Ask your agent to perform an action. For example:
+1. Abra o painel de Chat do GitHub Copilot e invoque sua extensão digitando `@NOME-DA-EXTENSÃO`.
+2. Peça ao seu agente para realizar uma ação. Por exemplo:
 
-    **"@EXTENSION-NAME Add 2 bananas to the shopping list."**
+    **"@NOME-DA-EXTENSÃO Adicione 2 bananas à lista de compras."**
 
-    Observe how the agent responds. With the new behaviour, it should reply in a happy and joking tone.
+    Observe como o agente responde. Com o novo comportamento, ele deve responder de maneira feliz e brincalhona.
 
-<img src="images/happy-positive-response.png" alt="Screenshot of copilot chat with a positive response." />
+<img src="images/happy-positive-response.png" alt="Captura de tela do chat do copilot com uma resposta positiva." />
 
-### Step 4: Experiment with Other Behavioural Changes
+### Passo 4: Experimente Outras Mudanças Comportamentais
 
-Feel free to explore other prompt modifications. You can instruct the agent to behave in different ways, such as being more formal or providing verbose explanations. Or to correct bad behaviour, for example you might need to guide it that it should update the quanity when an item already exists rather than adding a new item. Modify the `prompts.js` file to experiment with different agent behaviours, then test your changes in the Copilot chat window.
+Sinta-se à vontade para explorar outras modificações de prompt. Você pode instruir o agente a se comportar de diferentes maneiras, como ser mais formal ou fornecer explicações detalhadas. Ou para corrigir comportamentos inadequados, por exemplo, você pode precisar orientá-lo para que ele atualize a quantidade quando um item já existir em vez de adicionar um novo item. Modifique o arquivo `prompts.js` para experimentar diferentes comportamentos do agente e, em seguida, teste suas mudanças na janela de chat do Copilot.
 
-#### Some examples:
+#### Alguns exemplos:
 
-Think about how to apply these as generically as possible.
+Pense em como aplicar isso da maneira mais genérica possível.
 
-- Prevent copilot from adding items which wouldn't usually be on a shopping list.
-- Default quantity values.
-- Remove unnessisary descriptive text like `a bunch of grapes` to just `grapes`.
+- Impedir que o copilot adicione itens que normalmente não estariam em uma lista de compras.
+- Valores padrão de quantidade.
+- Remover texto descritivo desnecessário como `um cacho de uvas` para apenas `uvas`.
 
 ---
 
-### Conclusion
+### Conclusão
 
-In this lab, you learned how to modify the behaviour of your Copilot agent by adjusting the static prompts. This gives you control over how the agent responds and allows you to create more tailored interactions.
+Neste laboratório, você aprendeu a modificar o comportamento do seu agente Copilot ajustando os prompts estáticos. Isso lhe dá controle sobre como o agente responde e permite criar interações mais personalizadas.
 
-Continue to [Walkthrough - Extension Publication](./../Walkthrough%20-%20Extension%20Publication/README.md)
+Continue para [Walkthrough - Publicação da Extensão](./../Walkthrough%20-%20Extension%20Publication/README.md)

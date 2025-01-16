@@ -1,31 +1,31 @@
-# Lab 3.2 - Integrating with the Shopping List API's Update Endpoint
+# Lab 3.2 - Integrando com o Endpoint de Atualização da API da Lista de Compras
 
-In this lab, you'll extend the functionality of your Copilot extension by integrating it with the Shopping List API's Update endpoint. This will allow Copilot to understand update requests and modify items in the shopping list.
+Neste laboratório, você expandirá a funcionalidade da sua extensão do Copilot integrando-a com o endpoint de atualização da API da Lista de Compras. Isso permitirá que o Copilot entenda solicitações de atualização e modifique itens na lista de compras.
 
-Before diving into the implementation, let's first ensure that there's an item added to the list, so we can later update it.
+Antes de mergulharmos na implementação, vamos primeiro garantir que há um item adicionado à lista, para que possamos atualizá-lo posteriormente.
 
-### Step 1: Adding an Item to the Shopping List
+### Passo 1: Adicionando um Item à Lista de Compras
 
-1. Open the GitHub Copilot Chat panel by clicking the Copilot icon at the bottom-right of any page on GitHub.com.
-2. Invoke your extension by typing `@EXTENSION-NAME`.
-3. In the chat window, ask your Copilot agent to add something to the shopping list. For example:
+1. Abra o painel de Chat do GitHub Copilot clicando no ícone do Copilot no canto inferior direito de qualquer página no GitHub.com.
+2. Invoque sua extensão digitando `@NOME-DA-EXTENSÃO`.
+3. Na janela de chat, peça ao seu agente Copilot para adicionar algo à lista de compras. Por exemplo:
 
-    **"Add 1 Plush Octocat to the shopping list."**
+    **"Adicione 1 Plush Octocat à lista de compras."**
 
-4. Verify that the item has been added successfully by reviewing the response in the chat window.
+4. Verifique se o item foi adicionado com sucesso revisando a resposta na janela de chat.
 
-### Step 2: Reviewing the API Specification for the Update Function
+### Passo 2: Revisando a Especificação da API para a Função de Atualização
 
-Before we implement the update functionality, let’s examine the Shopping List API’s specification for updating an item.
+Antes de implementarmos a funcionalidade de atualização, vamos examinar a especificação da API da Lista de Compras para atualizar um item.
 
-<img src="images/update-specification.png" width="600px" alt="Screenshot of Swagger UI endpoint specification" />
+<img src="images/update-specification.png" width="600px" alt="Captura de tela da especificação do endpoint no Swagger UI" />
 
+### Passo 3: Implementando a Função de Atualização em `client.js`
 
-### Step 3: Implementing the Update Function in `client.js`
-Now, let's code the update functionality inside the `client.js` file to handle updates to the items in the shopping list.
+Agora, vamos codificar a funcionalidade de atualização dentro do arquivo `client.js` para lidar com atualizações dos itens na lista de compras.
 
-Open the `client.js` file in your repository.
-Implement the update function based on the API specification. The function should look something like this:
+Abra o arquivo `client.js` no seu repositório.
+Implemente a função de atualização com base na especificação da API. A função deve se parecer com isso:
 
 ```javascript
 async function updateShoppingListItem(details) {
@@ -50,22 +50,23 @@ async function updateShoppingListItem(details) {
 }
 ```
 
-Save the changes to the `client.js` file.
+Salve as alterações no arquivo `client.js`.
 
-### Step 4: Configuring Metadata for the Update Function
-Now that the update function is implemented, we need to configure the metadata in functionMappings.js so that Copilot can understand how to invoke this functionality.
+### Passo 4: Configurando Metadados para a Função de Atualização
 
-Open the `functionMappings.js` file.
+Agora que a função de atualização está implementada, precisamos configurar os metadados em `functionMappings.js` para que o Copilot entenda como invocar essa funcionalidade.
 
-Add a new entry for the update function.
+Abra o arquivo `functionMappings.js`.
 
-The metadata should look something like this:
+Adicione uma nova entrada para a função de atualização.
+
+Os metadados devem se parecer com isso:
 
 ```javascript
 {
     type: 'function',
-    title: 'Updates an item in the shopping list.',
-    description: 'This action will update item {id} in the shopping list.',
+    title: 'Atualiza um item na lista de compras.',
+    description: 'Esta ação atualizará o item {id} na lista de compras.',
     requiresConfirmation: true,
     function: {
       name: 'updateShoppingListItem',
@@ -74,15 +75,15 @@ The metadata should look something like this:
         properties: {
           id: {
             type: 'number',
-            description: 'The name of the item to update.'
+            description: 'O nome do item a ser atualizado.'
           },
           quantity: {
             type: 'number',
-            description: 'The new quantity for the item.'
+            description: 'A nova quantidade para o item.'
           },
           description: {
             type: 'string',
-            description: 'The new description of the item being updated.'
+            description: 'A nova descrição do item sendo atualizado.'
           }
         },
         required: ['id']
@@ -91,32 +92,33 @@ The metadata should look something like this:
   }
 ```
 
-Finally update the function array `functions` to include the name of your new function.
+Finalmente, atualize o array de funções `functions` para incluir o nome da sua nova função.
 
-Save your changes to `functionMappings.js`.
+Salve suas alterações em `functionMappings.js`.
 
-### Step 5: Testing the Update Function
-Now that the update function is implemented and the metadata is configured, it's time to test it.
+### Passo 5: Testando a Função de Atualização
 
-Open the GitHub Copilot Chat panel.
-Invoke your extension by typing @EXTENSION-NAME.
-Ask Copilot to update the quantity of the item you added earlier. For example:
-"@EXTENSION-NAME Update the list because I would now like 2 Plush Octocats instead of 1."
+Agora que a função de atualização está implementada e os metadados estão configurados, é hora de testá-la.
 
-Verify that Copilot processes the request and updates the item in the list.
+Abra o painel de Chat do GitHub Copilot.
+Invoque sua extensão digitando @NOME-DA-EXTENSÃO.
+Peça ao Copilot para atualizar a quantidade do item que você adicionou anteriormente. Por exemplo:
+"@NOME-DA-EXTENSÃO Atualize a lista porque agora eu gostaria de 2 Plush Octocats em vez de 1."
 
-If the quantity is successfully updated, the metadata and implementation are correctly set, and Copilot can now handle update actions.
+Verifique se o Copilot processa a solicitação e atualiza o item na lista.
 
+Se a quantidade for atualizada com sucesso, os metadados e a implementação estão configurados corretamente, e o Copilot agora pode lidar com ações de atualização.
 
-### Summary
-In this lab, you've integrated your Copilot extension with the Shopping List API's update functionality by:
+### Resumo
 
-- Implementing the update function in api.js.
-- Configuring the metadata for the update function in functionMappings.js.
-- Testing the update functionality via the chat window.
+Neste laboratório, você integrou sua extensão do Copilot com a funcionalidade de atualização da API da Lista de Compras por:
+
+- Implementar a função de atualização em `client.js`.
+- Configurar os metadados para a função de atualização em `functionMappings.js`.
+- Testar a funcionalidade de atualização via a janela de chat.
 
 ---
 
-Now that you’ve completed this task, your Copilot extension is capable of updating items in the shopping list. Move on to the next lab to explore further capabilities.
+Agora que você completou esta tarefa, sua extensão do Copilot é capaz de atualizar itens na lista de compras. Siga para o próximo laboratório para explorar mais capacidades.
 
-Continue to [Lab 3.3 - Modifying Agent Behaviour](./../Lab%203.3%20-%20Modifying%20Agent%20Behaviour/README.md).
+Continue para [Lab 3.3 - Modificando o Comportamento do Agente](./../Lab%203.3%20-%20Modifying%20Agent%20Behaviour/README.md).

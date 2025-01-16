@@ -1,79 +1,79 @@
-# Lab 1.1 - Setting Up Your Codespaces Environment
+# Lab 1.1 - Configurando Seu Ambiente Codespaces
 
-In this lab, you will set up your development environment using GitHub Codespaces. This environment will allow you to work on your Copilot extension directly in the cloud without needing to install anything locally.
+Neste laboratório, você configurará seu ambiente de desenvolvimento usando o GitHub Codespaces. Este ambiente permitirá que você trabalhe na sua extensão do Copilot diretamente na nuvem, sem precisar instalar nada localmente.
 
-## Steps to Complete
+## Passos para Completar
 
-### 1. Launch the Codespace
+### 1. Iniciar o Codespace
 
-We'll begin by launching a Codespace on the main branch of the repository. Use the quick link below to get started:
+Começaremos iniciando um Codespace na branch principal do repositório. Use o link rápido abaixo para começar:
 
-[Launch Codespace on Main](https://codespaces.new/githubuniverseworkshops/build-custom-copilot-extensions)
+[Iniciar Codespace na Principal](https://codespaces.new/githubuniverseworkshops/build-custom-copilot-extensions)
 
-- You should be directed to a page where your Codespace environment is automatically set up.
+- Você deve ser direcionado para uma página onde seu ambiente Codespace é configurado automaticamente.
 
-<img src="./images/create-codespace.png" width="600px" alt="Create codespace options" />
+<img src="./images/create-codespace.png" width="600px" alt="Opções de criação do codespace" />
 
-- This may take a few moments, as Codespaces provisions the environment and pulls in the required dependencies.
+- Isso pode levar alguns momentos, pois o Codespaces provisiona o ambiente e puxa as dependências necessárias.
 
-<img src="./images/codespace-building.png" width="600px" alt="Codespaces in the process of creation" />
+<img src="./images/codespace-building.png" width="600px" alt="Codespaces em processo de criação" />
 
-### 2. Explore the Development Environment
+### 2. Explore o Ambiente de Desenvolvimento
 
-Once your Codespace is ready, you will be dropped into a fully-configured development environment. Take a few minutes to familiarize yourself with the tools and layout.
+Uma vez que seu Codespace esteja pronto, você será direcionado para um ambiente de desenvolvimento totalmente configurado. Tire alguns minutos para se familiarizar com as ferramentas e o layout.
 
-- You should see a terminal, file explorer, and code editor ready for action.
-- The repository files are pre-loaded, and you can start editing right away.
+- Você deve ver um terminal, explorador de arquivos e editor de código prontos para uso.
+- Os arquivos do repositório estão pré-carregados, e você pode começar a editar imediatamente.
 
-<img src="./images/codespace-building.png" width="600px" alt="Codespace open" />
+<img src="./images/codespace-building.png" width="600px" alt="Codespace aberto" />
 
-### 3. Verify the Repository is on the Main Branch
+### 3. Verifique se o Repositório está na Branch Principal
 
-Before proceeding, verify that you are working on the `main` branch.
+Antes de prosseguir, verifique se você está trabalhando na branch `main`.
 
-- Open the terminal in Codespaces and run the following command to check the current branch:
+- Abra o terminal no Codespaces e execute o seguinte comando para verificar a branch atual:
 
     ```bash
     git branch
     ```
 
-- Ensure that `main` is highlighted. If you're not on the `main` branch, switch to it using:
+- Certifique-se de que `main` está destacado. Se você não estiver na branch `main`, mude para ela usando:
 
     ```bash
     git checkout main
     ```
 
-- Ensure that you have the latest code by pulling any changes:
+- Certifique-se de que você tem o código mais recente puxando quaisquer mudanças:
 
     ```bash
     git pull
     ```
 
-### 4. Start the Agent
-We need to start the agent in your codespace. You can do this by running the following command in your codespace terminal:
+### 4. Inicie o Agente
+Precisamos iniciar o agente no seu codespace. Você pode fazer isso executando o seguinte comando no terminal do seu codespace:
 
     ```bash
     npm run dev
     ```
 
-### 5. Make application port publicly accessible
+### 5. Torne a porta da aplicação publicamente acessível
 
-In order for copilot to access your extension, you need to make the application port publicly accessible.
+Para que o copilot acesse sua extensão, você precisa tornar a porta da aplicação publicamente acessível.
 
-- Navigate to the `ports` tab
+- Navegue até a aba `ports`
 
-<img src="./images/ports-tab.png" width="600px" alt="Navigate to the ports tab" />
+<img src="./images/ports-tab.png" width="600px" alt="Navegar até a aba de portas" />
 
-- Right click on port 3000 (This agent's API), select `Port Visibility` and then `Public`
+- Clique com o botão direito na porta 3000 (API deste agente), selecione `Port Visibility` e depois `Public`
 
-<img src="./images/change-visibility.png" width="600px" alt="Port visibility selection" />
+<img src="./images/change-visibility.png" width="600px" alt="Seleção de visibilidade da porta" />
 
-**Note:** You will need this URL later, you are able to right click and select "Copy Local Address" to make it available to paste when required.
+**Nota:** Você precisará deste URL mais tarde, você pode clicar com o botão direito e selecionar "Copy Local Address" para torná-lo disponível para colar quando necessário.
 
-### 5. Start Your Development Journey
+### 5. Comece Sua Jornada de Desenvolvimento
 
-With the Codespace set up and ready, you're now prepared to begin working on your Copilot extension. In the next lab, we will create the foundation for your extension.
+Com o Codespace configurado e pronto, você está preparado para começar a trabalhar na sua extensão do Copilot. No próximo laboratório, criaremos a base para sua extensão.
 
 ---
 
-Continue to [Lab 1.2 - Configuring an Agent](./../Lab%201.2%20-%20Configuring%20an%20Agent/README.md)
+Continue para [Lab 1.2 - Configurando um Agente](./../Lab%201.2%20-%20Configuring%20an%20Agent/README.md)

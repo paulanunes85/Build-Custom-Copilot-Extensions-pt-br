@@ -1,40 +1,40 @@
-In this lab, you will explore the codebase of a project that integrates with a shopping list API using GitHub Copilot. This guide will walk you through the key files and their functionalities.
+Neste laboratório, você explorará a base de código de um projeto que integra com uma API de lista de compras usando o GitHub Copilot. Este guia irá orientá-lo pelos arquivos principais e suas funcionalidades.
 
-## Steps to Complete
+## Passos para Completar
 
-### 1. Overview of the Codebase
+### 1. Visão Geral da Base de Código
 
-The project consists of several key files that you need for the workshop:
+O projeto consiste em vários arquivos principais que você precisa para o workshop:
 
-- `index.js`: The main server file that handles incoming requests and interacts with the Copilot extension.
-- `client.js`: Contains functions to interact with the shopping list API.
-- `functionMappings.js`: Maps function names to their descriptions and parameters.
-- `prompts.js`: Defines static prompts used by the Copilot extension.
+- `index.js`: O arquivo principal do servidor que lida com solicitações recebidas e interage com a extensão do Copilot.
+- `client.js`: Contém funções para interagir com a API da lista de compras.
+- `functionMappings.js`: Mapeia nomes de funções para suas descrições e parâmetros.
+- `prompts.js`: Define prompts estáticos usados pela extensão do Copilot.
 
 ### 2. Explore `index.js`
 
-This file sets up an Express server and handles incoming requests. It includes functions to call API functions and manage confirmations.
+Este arquivo configura um servidor Express e lida com solicitações recebidas. Inclui funções para chamar funções da API e gerenciar confirmações.
 
 ### 3. Explore `client.js`
 
-This file contains functions to interact with the shopping list API.
+Este arquivo contém funções para interagir com a API da lista de compras.
 
-- **getShoppingList**: Fetches the current shopping list.
-- **addShoppingListItem**: Adds an item to the shopping list.
-- **deleteShoppingListItem**: Deletes an item from the shopping list.
+- **getShoppingList**: Busca a lista de compras atual.
+- **addShoppingListItem**: Adiciona um item à lista de compras.
+- **deleteShoppingListItem**: Exclui um item da lista de compras.
 
 ### 4. Explore `functionMappings.js`
 
-This file maps function names to their descriptions and parameters. It helps the Copilot extension understand what each function does and what parameters it requires.
+Este arquivo mapeia nomes de funções para suas descrições e parâmetros. Ele ajuda a extensão do Copilot a entender o que cada função faz e quais parâmetros ela requer.
 
-- **functionMappings**: An array of objects, each representing a function with its title, description, and parameters.
+- **functionMappings**: Um array de objetos, cada um representando uma função com seu título, descrição e parâmetros.
 
 ### 5. Explore `prompts.js`
 
-This file defines static prompts used by the Copilot extension to guide its interactions.
+Este arquivo define prompts estáticos usados pela extensão do Copilot para guiar suas interações.
 
-- **staticPrompts**: An array of objects, each representing a prompt with a role and content.
+- **staticPrompts**: Um array de objetos, cada um representando um prompt com um papel e conteúdo.
 
 ---
 
-Continue to [Lab 3.1 - Configuring Delete Metadata](./../Lab%203.1%20-%20Configuring%20Delete%20Metadata/README.md).
+Continue para [Lab 3.1 - Configurando Metadados de Exclusão](./../Lab%203.1%20-%20Configuring%20Delete%20Metadata/README.md).

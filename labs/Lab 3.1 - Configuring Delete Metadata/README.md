@@ -1,41 +1,41 @@
-# Lab 3.1 - Enabling Copilot to Understand the Delete Function
+# Lab 3.1 - Habilitando o Copilot para Entender a Função de Exclusão
 
-In this lab, you'll configure the metadata for your Copilot extension to enable it to understand and process the delete function. This will be done by mapping the implementation of the delete functionality from your API into the metadata that Copilot requires.
+Neste laboratório, você configurará os metadados para sua extensão do Copilot para permitir que ele entenda e processe a função de exclusão. Isso será feito mapeando a implementação da funcionalidade de exclusão da sua API nos metadados que o Copilot requer.
 
-Before we begin, let's add some items to the shopping list through the chat window by interacting with the configured agent.
+Antes de começarmos, vamos adicionar alguns itens à lista de compras através da janela de chat interagindo com o agente configurado.
 
-### Step 1: Adding Items to the Shopping List
+### Passo 1: Adicionando Itens à Lista de Compras
 
-1. Open the GitHub Copilot Chat panel by clicking the Copilot icon at the bottom-right of any page on GitHub.com.
-2. Invoke your extension by typing `@EXTENSION-NAME`, replacing any spaces in the name with hyphens.
-3. In the chat window, ask your Copilot agent to add something to the shopping list. For example:
+1. Abra o painel de Chat do GitHub Copilot clicando no ícone do Copilot no canto inferior direito de qualquer página no GitHub.com.
+2. Invoque sua extensão digitando `@NOME-DA-EXTENSÃO`, substituindo quaisquer espaços no nome por hífens.
+3. Na janela de chat, peça ao seu agente Copilot para adicionar algo à lista de compras. Por exemplo:
 
-<img src="images/chat-add-apples.png" alt="Chat window showing how to add apples to the list." width="600px" />
+<img src="images/chat-add-apples.png" alt="Janela de chat mostrando como adicionar maçãs à lista." width="600px" />
 
-4. Verify that the item has been added successfully by reviewing the response in the chat window.
+4. Verifique se o item foi adicionado com sucesso revisando a resposta na janela de chat.
 
-### Step 2: Configuring Metadata for the Delete Function
+### Passo 2: Configurando Metadados para a Função de Exclusão
 
-To enable Copilot to process deletion requests, we will need to look at the existing delete function which has been implemented and turn that into the metadata that Copilot can understand.
+Para permitir que o Copilot processe solicitações de exclusão, precisaremos olhar para a função de exclusão existente que foi implementada e transformá-la nos metadados que o Copilot pode entender.
 
-1. Open the `client.js` file in your repository.
-2. Locate the function responsible for deleting items from the shopping list. The code should resemble something like this:
+1. Abra o arquivo `client.js` no seu repositório.
+2. Localize a função responsável por excluir itens da lista de compras. O código deve se parecer com algo assim:
 
     ```javascript
         async function deleteShoppingListItem(id) {
         const url = `${baseurl}/items/${JSON.parse(id).id}`
-          // implementation
+          // implementação
         }
     ```
 
-3. Now, navigate to `functionMappings.js`. This is where you will configure the metadata for your Copilot extension.
-4. Add a new entry for the delete function, mapping it to the functionality defined in `client.js`. The structure should define how Copilot can understand and invoke this action. For example:
+3. Agora, navegue até `functionMappings.js`. É aqui que você configurará os metadados para sua extensão do Copilot.
+4. Adicione uma nova entrada para a função de exclusão, mapeando-a para a funcionalidade definida em `client.js`. A estrutura deve definir como o Copilot pode entender e invocar essa ação. Por exemplo:
 
     ```javascript
     {
         type: 'function',
-        title: 'Delete an item from the shopping list',
-        description: 'This item will remove ID {id} from the shopping list.',
+        title: 'Excluir um item da lista de compras',
+        description: 'Este item removerá o ID {id} da lista de compras.',
         requiresConfirmation: true,
         function: {
            name: 'deleteShoppingListItem',
@@ -52,33 +52,33 @@ To enable Copilot to process deletion requests, we will need to look at the exis
     }
     ```
 
-    `title`, `description`, function `name` and `parameters` are the fields that you need to pay attention to. `requiresConfirmation` is a boolean that indicates if the function requires a confirmation from the user before being invoked and should be used for all destructuve operations.
+    `title`, `description`, `function` `name` e `parameters` são os campos aos quais você precisa prestar atenção. `requiresConfirmation` é um booleano que indica se a função requer uma confirmação do usuário antes de ser invocada e deve ser usada para todas as operações destrutivas.
 
-5. Save your changes to `functionMappings.js`.
+5. Salve suas alterações em `functionMappings.js`.
 
-### Step 3: Testing the Delete Function
+### Passo 3: Testando a Função de Exclusão
 
-Now that you've configured the metadata for the delete function, it's time to test it in the chat window.
+Agora que você configurou os metadados para a função de exclusão, é hora de testá-la na janela de chat.
 
-1. Open the GitHub Copilot Chat panel again.
-2. Invoke your extension by typing `@EXTENSION-NAME`.
-3. Ask Copilot to delete the item you added earlier. For example:
+1. Abra o painel de Chat do GitHub Copilot novamente.
+2. Invoque sua extensão digitando `@NOME-DA-EXTENSÃO`.
+3. Peça ao Copilot para excluir o item que você adicionou anteriormente. Por exemplo:
 
-    **"@shopping-list-agent Delete the apples from the shopping list."**
+    **"@shopping-list-agent Exclua as maçãs da lista de compras."**
 
-4. Verify that Copilot processes the request and removes the item from the list.
+4. Verifique se o Copilot processa a solicitação e remove o item da lista.
 
-5. If the item is successfully deleted, your metadata is correctly configured, and Copilot can now handle delete actions.
+5. Se o item for excluído com sucesso, seus metadados estão configurados corretamente e o Copilot agora pode lidar com ações de exclusão.
 
-### Summary
+### Resumo
 
-In this lab, you've enabled your Copilot extension to understand the delete function by:
+Neste laboratório, você habilitou sua extensão do Copilot para entender a função de exclusão por:
 
-- Translating the delete functionality from `client.js` into metadata in `functionMappings.js`.
-- Testing the delete functionality via the chat window.
+- Traduzir a funcionalidade de exclusão de `client.js` em metadados em `functionMappings.js`.
+- Testar a funcionalidade de exclusão via a janela de chat.
 
-Now that you've successfully completed this task, you can move on to the next lab to extend the capabilities of your Copilot extension further.
+Agora que você completou esta tarefa com sucesso, você pode seguir para o próximo laboratório para expandir ainda mais as capacidades da sua extensão do Copilot.
 
 ---
 
-Continue to [Lab 3.2 - Integrating with the Shopping List API's Update Endpoint](./../Lab%203.2%20-%20Integrating%20Update%20Function/README.md)
+Continue para [Lab 3.2 - Integrando com o Endpoint de Atualização da API da Lista de Compras](./../Lab%203.2%20-%20Integrating%20Update%20Function/README.md)
